@@ -14,7 +14,7 @@ MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD")
 MYSQL_DATABASE = os.getenv("MYSQL_DATABASE")
 MYSQL_PORT=os.getenv("MYSQL_PORT")
 
-print("DEBUG MYSQL:", MYSQL_HOST, MYSQL_USER, MYSQL_DATABASE)
+# print("DEBUG MYSQL:", MYSQL_HOST, MYSQL_USER, MYSQL_DATABASE,MYSQL_PORT)
 
 def get_conn():
     return mysql.connector.connect(
