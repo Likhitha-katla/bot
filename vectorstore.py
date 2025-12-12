@@ -5,20 +5,26 @@ import faiss
 import numpy as np
 from models import get_embedding
 import os
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
+load_dotenv()
 
 MYSQL_HOST = os.getenv("MYSQL_HOST")
 MYSQL_USER = os.getenv("MYSQL_USER")
 MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD")
 MYSQL_DATABASE = os.getenv("MYSQL_DATABASE")
+MYSQL_PORT=os.getenv("MYSQL_PORT")
+
 print("DEBUG MYSQL:", MYSQL_HOST, MYSQL_USER, MYSQL_DATABASE)
 
 def get_conn():
     return mysql.connector.connect(
-        host=MYSQL_HOST,
-        user=MYSQL_USER,
-        password=MYSQL_PASSWORD,
-        database=MYSQL_DATABASE
+        host=os.getenv("MYSQL_HOST"),
+        user=os.getenv("MYSQL_USER"),
+        password=os.getenv("MYSQL_PASSWORD"),
+        database=os.getenv("MYSQL_DATABASE"),
+        port=os.getenv("MYSQL_PORT"),
+        ssl_ca="ca.pem",
+        ssl_disabled=False
     )
 
 

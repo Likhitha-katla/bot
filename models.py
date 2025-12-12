@@ -1,6 +1,8 @@
 # models.py
 import os
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
     print("⚠️ WARNING: OPENROUTER_API_KEY is missing. Check Railway Environment Variables.")

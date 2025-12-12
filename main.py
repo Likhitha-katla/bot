@@ -4,6 +4,8 @@ import os
 from models import call_llama
 from vectorstore import (
     semantic_search,
+    store_full_chat_data,
+    ingest_chat,
     
     get_all_users,
     get_replies_after,
@@ -175,14 +177,12 @@ def chat():
 # INIT + START SERVER
 # -------------------------------------------------------
 if __name__ == "__main__":
-    # print("📥 Loading chat data & generating FAISS index...")
-    # store_full_chat_data("cases.json")
-    # total = ingest_chat("cases.json")
-    # print(f"✔ Indexed {total} messages.")
+    print("📥 Loading chat data & generating FAISS index...")
+    store_full_chat_data("cases.json")
+    total = ingest_chat("cases.json")
+    print(f"✔ Indexed {total} messages.")
 
-    # print("🚀 Flask AI Chat Server running on port 5000")
-    # app.run(host="0.0.0.0", port=5000)
+    print("🚀 Flask AI Chat Server running on port 5000")
+    app.run(host="0.0.0.0", port=5000)
 
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
 
