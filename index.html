@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Viewer + AI Analyzer</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background: #ece5dd;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /*  LEFT PANEL (WHATSAPP VIEWER)  */
+        .left-panel {
+            width: 50%;
+            background: #ECE5DD;
+            display: flex;
+            border-radius: 12px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*  RIGHT PANEL (AI ANALYZER)  */
+        .right-panel {
+            width: 50%;
+            background: #ECE5DD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* ------ ORIGINAL WHATSAPP VIEWER CSS ------ */
+        .chat-container {
+            width: 100%;
+            height: 94vh;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+             width: 600px;
+            height: 94vh;
+            background: #fff;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 0 10px #bbb;
+        }
+
+        .group-menu {
+            display: flex;
+            background: #128c7e;
+            padding: 10px;
+            gap: 12px;
+            overflow-x: auto;
+        }
+
+        .group-btn {
+            padding: 8px 14px;
+            background: #25d366;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .header {
+            background: #075e54;
+            color: white;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .messages {
+            padding: 20px;
+            overflow-y: auto;
+            flex: 1;
+            background: #e5ddd5;
+        }
+
+        .username { font-size: 13px; font-weight: bold; color: #555; margin-bottom: 4px; }
+        .bubble {
+            max-width: 70%;
+            padding: 10px 14px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            border-radius: 12px;
+            position: relative;
+            line-height: 1.4;
+            white-space: pre-wrap;
+        }
+        .left { background: white; border-radius: 12px 12px 12px 0px; }
+        .time { font-size: 11px; color: #777; text-align: right; margin-top: 4px; }
+        .reply-box {
+            background: #f0f0f0;
+            border-left: 3px solid #7c7c7c;
+            padding: 5px 8px;
+            font-size: 13px;
+            border-radius: 6px;
+            margin-bottom: 6px;
+            color: #444;
+        }
+        .question { color: #075e54; font-weight: bold; margin-bottom: 6px; }
+
+        /* ------ AI ANALYZER CSS ------ */
+        .ai-box {
+            width: 600px;
+            height: 94vh;
+            background: #fff;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 0 10px #bbb;
+        }
+
+        .chat-box {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            background: #ECE5DD;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .msg {
+            max-width: 75%;
+            padding: 10px 14px;
+            margin: 6px 0;
+            border-radius: 12px;
+            line-height: 1.35;
+            word-wrap: break-word;
+        }
+
+        .bot { background: white; align-self: flex-start; border-top-left-radius: 0; }
+        .user { background: #DCF8C6; align-self: flex-end; border-top-right-radius: 0; }
+
+        .input-area {
+            display: flex;
+            padding: 10px;
+            background: #f0f0f0;
+            border-top: 1px solid #ddd;
+        }
+
+        .input-area input {
+            flex: 1;
+            padding: 12px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .input-area button {
+            padding: 12px 18px;
+            margin-left: 10px;
+            background: #25D366;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+
+<div class="left-panel">
+    <div class="chat-container">
+        <div class="group-menu" id="groupMenu"></div>
+        <div class="header" id="groupTitle">Chat Viewer</div>
+        <div class="messages" id="messages"></div>
+    </div>
+</div>
+
+
+<div class="right-panel">
+    <div class="ai-box">
+
+        <div class="header">
+            AI Chat Analyzer
+            <select id="groupSelector" style="padding:5px; border-radius:6px;">
+                <option value="22">Case_118</option>
+                <option value="11">Case_108</option>
+                <option value="24">Case_119</option>
+            </select>
+        </div>
+
+        <div id="chatBox" class="chat-box"></div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type a message..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------------- JAVASCRIPT ------------------ -->
+
+<script>
+/* ---------------- LEFT SIDE WHATSAPP VIEWER ---------------- */
+let allGroups = [];
+
+async function loadJSON() {
+    const response = await fetch("cases.json");
+    allGroups = await response.json();
+    createMenu();
+    loadGroup(0);
+}
+
+function createMenu() {
+    const menu = document.getElementById("groupMenu");
+    menu.innerHTML = "";
+
+    allGroups.forEach((g, index) => {
+        const btn = document.createElement("div");
+        btn.classList.add("group-btn");
+        btn.textContent = g.chatGroupDetails.name;
+        btn.onclick = () => loadGroup(index);
+        menu.appendChild(btn);
+    });
+}
+
+function loadGroup(index) {
+    const group = allGroups[index];
+
+    document.getElementById("groupTitle").textContent =
+        group.chatGroupDetails.name;
+
+    const messagesDiv = document.getElementById("messages");
+    messagesDiv.innerHTML = "";
+
+    group.data.forEach(msg => {
+        const sender = msg.userName || "Unknown";
+
+        const wrapper = document.createElement("div");
+
+        const username = document.createElement("div");
+        username.classList.add("username");
+        username.textContent = sender;
+        wrapper.appendChild(username);
+
+        const bubble = document.createElement("div");
+        bubble.classList.add("bubble", "left");
+
+        let html = "";
+
+        if (msg.isReply && msg.replyTo) {
+            html += `<div class="reply-box">
+                        <b>${msg.replyTo.userName || ""}</b><br>
+                        ${msg.replyTo.message || ""}
+                     </div>`;
+        }
+
+        if (msg.messageType === "question" && msg.question) {
+            html += `<div class="question">❓ ${msg.question.message}</div>`;
+        }
+
+        html += msg.message || "";
+        html += `<div class="time">${msg.createdOn || ""}</div>`;
+
+        bubble.innerHTML = html;
+        wrapper.appendChild(bubble);
+        messagesDiv.appendChild(wrapper);
+
+        if (msg.images) {
+            const img = document.createElement("img");
+            img.src = msg.images;
+            img.style.width = "200px";
+            img.style.borderRadius = "12px";
+            img.style.marginBottom = "12px";
+            messagesDiv.appendChild(img);
+        }
+    });
+}
+
+loadJSON();
+
+
+
+const chatBox = document.getElementById("chatBox");
+
+document.getElementById("groupSelector").addEventListener("change", () => {
+    chatBox.innerHTML = "";
+    localStorage.removeItem("chat_history");
+});
+
+function addMessage(text, sender) {
+    const div = document.createElement("div");
+    div.classList.add("msg", sender);
+    div.innerText = text;
+    chatBox.appendChild(div);
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+async function sendMessage() {
+    const input = document.getElementById("userInput");
+    const text = input.value.trim();
+    const groupId = document.getElementById("groupSelector").value;
+
+    if (!text) return;
+
+    addMessage(text, "user");
+    input.value = "";
+
+    const loading = document.createElement("div");
+    loading.classList.add("msg", "bot");
+    loading.innerText = "Thinking...";
+    chatBox.appendChild(loading);
+
+    try {
+        const BACKEND_URL = "https://web-production-97487.up.railway.app";
+const res = await fetch(`${BACKEND_URL}/chat`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ question: text, group_id: groupId })
+
+        });
+
+        const data = await res.json();
+        chatBox.removeChild(loading);
+
+        addMessage(data.answer || "Server error", "bot");
+
+    } catch (err) {
+        chatBox.removeChild(loading);
+        addMessage("Error connecting to server.", "bot");
+    }
+}
+</script>
+
+</body>
+</html> 
+

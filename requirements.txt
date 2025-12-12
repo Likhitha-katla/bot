@@ -1,0 +1,8 @@
+Flask
+flask-cors
+mysql-connector-python
+faiss-cpu
+numpy
+requests
+python-dotenv
+gunicorn

@@ -1,0 +1,3312 @@
+[
+
+{
+    "chatGroupDetails": {
+        "id": 22,
+        "name": "Case_118",
+        "imageUrls": [
+            "https://webchatroomuploads.s3.amazonaws.com/profile/image_1750871475923_362728.jpg"
+        ],
+        "image": "https://webchatroomuploads.s3.amazonaws.com/profile/image_1750871475923_362728.jpg",
+        "createdBy": "dixitvarma95",
+        "description": "\u003cp\u003ePatient undergoes \u003cstrong\u003ePTBD and biliary stenting\u003c/strong\u003e for malignant obstruction. Now presents back with the \u003cstrong\u003eraised bilirubin levels\u003c/strong\u003e after \u003cstrong\u003eclamping of the drain\u003c/strong\u003e. \u003c/p\u003e",
+        "status": "active",
+        "archive": "false",
+        "freeze": false,
+        "paid_users": [],
+        "chatCount": 0,
+        "CreatedOn": "2025-06-25T17:11:19.617Z",
+        "UpdatedOn": "2025-12-09T07:37:53.566Z",
+        "lastChatDate": "",
+        "users": [
+            {
+                "userName": "dixitvarma95",
+                "firstName": "Dixit",
+                "lastName": "Varma",
+                "isMute": false
+            },
+            {
+                "userName": "admin",
+                "firstName": "admin",
+                "lastName": "admin",
+                "isMute": false
+            },
+            {
+                "userName": "gurajar",
+                "firstName": "ram",
+                "lastName": "gurajala",
+                "isMute": false
+            },
+            {
+                "userName": "iradon",
+                "firstName": "Nishanth",
+                "lastName": "Gopal",
+                "isMute": false
+            },
+            {
+                "userName": "darshan_thummar",
+                "firstName": "Darshan",
+                "lastName": "Thummar",
+                "isMute": false
+            },
+            {
+                "userName": "docanshuljain@gmail.com",
+                "firstName": "Anshul",
+                "lastName": "Jain",
+                "isMute": false
+            },
+            {
+                "userName": "raj70799",
+                "firstName": "Raj",
+                "lastName": "Soni",
+                "isMute": false
+            },
+            {
+                "userName": "ashishgupta",
+                "firstName": "Ashish ",
+                "lastName": "Gupta",
+                "isMute": false
+            },
+            {
+                "userName": "",
+                "firstName": "",
+                "lastName": "",
+                "isMute": false
+            },
+            {
+                "userName": "pmalik493@gmail.com",
+                "firstName": "Poorvi",
+                "lastName": "Malik",
+                "isMute": false
+            },
+            {
+                "userName": "santhoshkmch",
+                "firstName": "Santhosh ",
+                "lastName": "Poyyamoli ",
+                "isMute": false
+            },
+            {
+                "userName": "sreenivasa2510@gmail.com",
+                "firstName": "Sreenivasa Narayana",
+                "lastName": "Raju",
+                "isMute": false
+            },
+            {
+                "userName": "drkarthi001",
+                "firstName": "Karthikeyan ",
+                "lastName": "M A",
+                "isMute": false
+            },
+            {
+                "userName": "abrar",
+                "firstName": "Abrar",
+                "lastName": "Gouse",
+                "isMute": false
+            },
+            {
+                "userName": "smajji",
+                "firstName": "sharon",
+                "lastName": "roja",
+                "isMute": false
+            },
+            {
+                "userName": "naveenkadiyala",
+                "firstName": "Naveen",
+                "lastName": "Kadiyala",
+                "isMute": false
+            },
+            {
+                "userName": "alomsaif@gmail.com",
+                "firstName": "Alom",
+                "lastName": "Saif",
+                "isMute": false
+            },
+            {
+                "userName": "sharath",
+                "firstName": "Sharath",
+                "lastName": "Chandra",
+                "isMute": false
+            },
+            {
+                "userName": "naveenk",
+                "firstName": "Naveen",
+                "lastName": "Kadiyala",
+                "isMute": false
+            },
+            {
+                "userName": "surajbhame",
+                "firstName": "Suraj",
+                "lastName": "Bhame",
+                "isMute": false
+            },
+            {
+                "userName": "darshan.thummar",
+                "firstName": "Darshan",
+                "lastName": "Thummar",
+                "isMute": false
+            },
+            {
+                "userName": "achyuth2000",
+                "firstName": "Achyuth Reddy ",
+                "lastName": "Vonteddu",
+                "isMute": false
+            },
+            {
+                "userName": "sreekanthkadari",
+                "firstName": "Sreekanth",
+                "lastName": "Kadari",
+                "isMute": false
+            },
+            {
+                "userName": "vinay",
+                "firstName": "TP",
+                "lastName": "Vinay",
+                "isMute": false
+            },
+            {
+                "userName": "vanikkka",
+                "firstName": "Helika",
+                "lastName": "Nelika",
+                "isMute": false
+            },
+            {
+                "userName": "sunnyaditya07",
+                "firstName": "Sunny",
+                "lastName": "Kumar",
+                "isMute": false
+            },
+            {
+                "userName": "saheb01",
+                "firstName": "saheb",
+                "lastName": "dhara",
+                "isMute": false
+            },
+            {
+                "userName": "likhitha",
+                "firstName": "K",
+                "lastName": "Likhitha",
+                "isMute": false
+            }
+        ],
+        "synopsis": {
+            "objective": "",
+            "details": ""
+        },
+        "notificationCount": 0,
+        "lastMessage": {
+            "createdOn": "",
+            "documents": "",
+            "groupId": "",
+            "chatId": 0,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "",
+            "userId": "",
+            "userName": "",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        "ads": null,
+        "price": "0",
+        "category": "",
+        "subcategory": "",
+        "category_icon": ""
+    },
+    "data": [
+        {
+            "createdOn": "2025-06-25T17:32:31Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 3248135249,
+            "images": "",
+            "firstName": "admin",
+            "lastName": "admin",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "admin",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "question",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "https://webchatroomuploads.s3.amazonaws.com/profile/sketch_to_image_20241124_170444.jpg",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "Displayed is the image from the initial procedure.\nWhat would be the next best step in the management?",
+                "images": null,
+                "isPrimary": true
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T09:10:54Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 4277163350,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Open the drain and proceed to manage stent occlusion ",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:00:09Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1114667475,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Grt. Opening/Unclamping the drain should be the first thing todo.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:00:37Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 2228559279,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Based on the displayed image, what about the initial placement? Is it appropriate?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:02:24Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 4039072397,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Was it distal CBD occlusion ",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:03:56Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 3049178159,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "(Not my case): not sure. Still the question would be, is the catheter in an appropriate position.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:06:52Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1593978555,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Yes we have holes above and below the stent ",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:09:25Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 968400333,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "The holes should be covering the whole length of biliary ducts from the entry point to the point beyond the obstruction to ensure adequate drainage from the entire system.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:10:42Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 707326456,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "Here even though the stent might be patent the proximal excluded ducts might or can be the cause for elevated bilirubin.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T10:18:59Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 3130393899,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "All the ducts proximal to the stent must be one continuous system I presume.. If there are a few holes above the stent it should drain the entire system I guess. Having holes right from the entry point may be impossible for periampullary obstruction. Further if the stent per se was working, then there won''t be jaundice in the first place.. Most likely explanation here is both the stent and the internal drainage of the drain tube is blocked I feel.. Would like to hear others opinion ",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:44:13Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1859472920,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750938252678.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:46:18Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 470642662,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "I agree with the thoughts that it should drain the whole system. However, these do not have normal flow because of the underlying mechanics. As a general rule, we aim to make sure that all parts of the ducts are covered with the drainage. In that context, we try to place the catheter with the last hole draining the periphery aspects of the ducts.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": true,
+            "replyTo": {
+                "chatId": 3130393899,
+                "userName": "santhoshkmch",
+                "userImage": "",
+                "messageType": "message",
+                "message": "All the ducts proximal to the stent must be one continuous system I presume.. If there are a few holes above the stent it should drain the entire system I guess. Having holes right from the entry point may be impossible for periampullary obstruction. Further if the stent per se was working, then there won''t be jaundice in the first place.. Most likely explanation here is both the stent and the internal drainage of the drain tube is blocked I feel.. Would like to hear others opinion ",
+                "imageUrl": ""
+            },
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:47:24Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 237804005,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Companies make modified catheters which has extra side holes which can be used in periampullary obstruction cases. If these are not available, we should manually make extra side holes in the cahteter",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:48:57Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 4134067347,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Dr Varma should give his inputs (Posted the case) about how they managed this case from here.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:49:45Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 2396652465,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "I have a basic doubt here sir. The holes in the drainage catheter come at predetermined fixed length and in most circumstances we are unable to have holes covering right starting from the entry point. In this case, going by the image of the catheter, if the holes start from the entry point, the pigtail will end up somewhere proximally within the stent which is not ideal for internal drainage ",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:55:19Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1184640,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Thats why we need to make extra side holes manually or use a modified catheter which has extra side holes.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": true,
+            "replyTo": {
+                "chatId": 2396652465,
+                "userName": "santhoshkmch",
+                "userImage": "",
+                "messageType": "message",
+                "message": "I have a basic doubt here sir. The holes in the drainage catheter come at predetermined fixed length and in most circumstances we are unable to have holes covering right starting from the entry point. In this case, going by the image of the catheter, if the holes start from the entry point, the pigtail will end up somewhere proximally within the stent which is not ideal for internal drainage ",
+                "imageUrl": ""
+            },
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:56:15Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1899601963,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Caution had to be taken while making extra side holes manually, as you might accidentally cut the string",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T11:59:19Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1090268706,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Another thing, I note here is that there is no radioopaque marker along the catheter which determines the location of the last hole ",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:00:00Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 72304335,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750939200259.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "Different case",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:02:57Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 495399574,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750939377290.jpg",
+            "firstName": "ram",
+            "lastName": "ram",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:02:57Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 426893961,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750939377619.jpg",
+            "firstName": "ram",
+            "lastName": "ram",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "This is a different case, Post Tx, PTBD. Rising Bilirubin",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:03:22Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 3167959777,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "As you can see there are undrained segments.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:04:23Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 211567751,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750939462564.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "Catheter was resited in this case",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:05:11Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 3940470235,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750939510882.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:08:36Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 2025746142,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "sorry, sir, I can’t get my head around this because in case of a communicating obstruction above the confluence, we usually access through one segment and the holes which are above the obstruction, are supposed to drain all of the ducts.. the only thing we make sure is that the holes start beyond the entry point and not proximal to it",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:32:02Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 2496608687,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "I can explain with pictures. As I was getting busier, I googled and this is what I got....AI Overview\nWhen using a biliary catheter for drainage, especially in situations of internal/external drainage, the placement of the holes, or fenestrations, at the periphery (just inside the duct where access is obtained) is crucial for preventing complications and ensuring proper function. \nHere''s why:\nPreventing Leakage: If the most peripheral hole is positioned outside the biliary duct, bile can leak along the catheter tract onto the skin, leading to skin irritation and potential infection.\nOptimizing Bile Flow: Properly positioned peripheral holes allow bile to drain effectively from the obstructed portion of the biliary system. If the hole is too far in, the bile duct peripheral to the catheter may become obstructed, leading to bile leakage along the course of the catheter.\nFacilitating Internal Drainage: Internal/external drains have side holes along the length of the catheter to facilitate bile flow both internally into the small intestine and externally into a drainage bag. The placement of the most peripheral holes just inside the biliary duct is essential for allowing bile to flow through the catheter, across the obstruction, and into the bowel.\nAvoiding Vascular Injury: When accessing the biliary system, particularly on the left side, central punctures can increase the risk of injury to the larger hepatic artery and portal vein branches. Targeting more peripheral bile ducts minimizes this risk. \nIn summary, ensuring the proper placement of the biliary catheter holes, specifically at the periphery, is critical for achieving optimal drainage, preventing leaks, and minimizing complications like bleeding and infection. ",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:39:11Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 3476570488,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750941551065.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:42:31Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1364218564,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "This is new for me.. Great to have a discussion here.. So far we have never had issues with deeper hole position as long as we place them above the obstruction ",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [
+                {
+                    "emoji": "🙏",
+                    "userName": "gurajar",
+                    "profileImage": ""
+                }
+            ],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:43:46Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 4271765929,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "May be one day....Thanks for the discussion",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:44:14Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 2307611276,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Would like to know inputs from other operators as well.. Thank you sir",
+            "status": "active",
+            "userId": "",
+            "userName": "santhoshkmch",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:44:31Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1315908822,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Also, I noticed in India some or most of the biliary catheters have no radioopaque marker or locking system...",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T12:45:08Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 3957641112,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Sure. Hope more gets into these discussions. Lets wait..",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": true,
+            "replyTo": {
+                "chatId": 2307611276,
+                "userName": "santhoshkmch",
+                "userImage": "",
+                "messageType": "message",
+                "message": "Would like to know inputs from other operators as well.. Thank you sir",
+                "imageUrl": ""
+            },
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T14:08:55Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 2959157578,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/image_1750946818455.jpg",
+            "firstName": "Dixit",
+            "lastName": "Dixit",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "dixitvarma95",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "We were thinking that the narrowing of stent by the mass was contributing to the outflow block, hence decided to go with a plastic stent.",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-26T14:08:55Z",
+            "documents": "",
+            "groupId": "22",
+            "chatId": 1435772866,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/image_1750946874898.jpg",
+            "firstName": "Dixit",
+            "lastName": "Dixit",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "dixitvarma95",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        }
+    ],
+    "message": "Success",
+    "status": 200
+},
+{
+    "chatGroupDetails": {
+        "id": 11,
+        "name": "Case_108",
+        "imageUrls": [
+            "https://webchatroomuploads.s3.amazonaws.com/profile/image_1748578845408_587792.jpg",
+            "https://webchatroomuploads.s3.amazonaws.com/profile/image_1748578846138_788873.jpg"
+        ],
+        "image": "https://webchatroomuploads.s3.amazonaws.com/profile/image_1748578845408_587792.jpg,https://webchatroomuploads.s3.amazonaws.com/profile/image_1748578846138_788873.jpg",
+        "createdBy": "gurajar",
+        "description": "\u003cp\u003ePatient undergoing\u003cstrong\u003e Elective TIPS\u003c/strong\u003e for Ascites.\u003c/p\u003e",
+        "status": "active",
+        "archive": "false",
+        "freeze": false,
+        "paid_users": [],
+        "chatCount": 0,
+        "CreatedOn": "2025-05-30T04:20:46.657Z",
+        "UpdatedOn": "2025-12-06T13:48:03.625Z",
+        "lastChatDate": "",
+        "users": [
+            {
+                "userName": "gurajar",
+                "firstName": "ram",
+                "lastName": "gurajala",
+                "isMute": false
+            },
+            {
+                "userName": "",
+                "firstName": "",
+                "lastName": "",
+                "isMute": false
+            },
+            {
+                "userName": "rishi_0591",
+                "firstName": "Rishabh",
+                "lastName": "Bhatia",
+                "isMute": false
+            },
+            {
+                "userName": "radbuzz",
+                "firstName": "Adnan",
+                "lastName": "Khan",
+                "isMute": false
+            },
+            {
+                "userName": "sschanda71",
+                "firstName": "Shiva",
+                "lastName": "Chanda",
+                "isMute": false
+            },
+            {
+                "userName": "bergenm",
+                "firstName": "Michael",
+                "lastName": "Bergen",
+                "isMute": false
+            },
+            {
+                "userName": "admin",
+                "firstName": "admin",
+                "lastName": "admin",
+                "isMute": false
+            },
+            {
+                "userName": "drkmrir",
+                "firstName": "Kumar ",
+                "lastName": "Muthukumar ",
+                "isMute": false
+            },
+            {
+                "userName": "hpvikas369@gmail.com",
+                "firstName": "Vikas",
+                "lastName": "H P",
+                "isMute": false
+            },
+            {
+                "userName": "sou_py95",
+                "firstName": "Suhasini",
+                "lastName": "Pattabiraman",
+                "isMute": false
+            },
+            {
+                "userName": "sharath",
+                "firstName": "Sharath",
+                "lastName": "Chandra",
+                "isMute": false
+            },
+            {
+                "userName": "sreenivasa2510@gmail.com",
+                "firstName": "Sreenivasa Narayana",
+                "lastName": "Raju",
+                "isMute": false
+            },
+            {
+                "userName": "rjosquared",
+                "firstName": "Rahul",
+                "lastName": "John",
+                "isMute": false
+            },
+            {
+                "userName": "surajbhame",
+                "firstName": "Suraj",
+                "lastName": "Bhame",
+                "isMute": false
+            },
+            {
+                "userName": "dixitvarma95",
+                "firstName": "Dixit",
+                "lastName": "Varma",
+                "isMute": false
+            },
+            {
+                "userName": "iradon",
+                "firstName": "Nishanth",
+                "lastName": "Gopal",
+                "isMute": false
+            },
+            {
+                "userName": "naveenk",
+                "firstName": "Naveen",
+                "lastName": "Kadiyala",
+                "isMute": false
+            }
+        ],
+        "synopsis": {
+            "objective": "",
+            "details": ""
+        },
+        "notificationCount": 0,
+        "lastMessage": {
+            "createdOn": "",
+            "documents": "",
+            "groupId": "",
+            "chatId": 0,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "",
+            "userId": "",
+            "userName": "",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        "ads": null,
+        "price": "0",
+        "category": "",
+        "subcategory": "",
+        "category_icon": ""
+    },
+    "data": [
+        {
+            "createdOn": "2025-05-30T04:24:22Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 4281574928,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "question",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "Displayed are the intraprocedural images. Comment on the images?",
+                "images": [
+                    "https://webchatroomuploads.s3.amazonaws.com/questions/image_1748579061109_779816.jpg"
+                ],
+                "isPrimary": true
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-05-30T04:25:01Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 3398690581,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1748579100782.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-16T02:50:27Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 3436666824,
+            "images": "",
+            "firstName": "Dhruv",
+            "lastName": "Patel",
+            "message": "Wire to periumbilical vein?",
+            "status": "active",
+            "userId": "",
+            "userName": "drdhruv15",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-16T02:53:05Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 182470306,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Grt. So what will you do now?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-16T03:50:44Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 449792131,
+            "images": "",
+            "firstName": "Dhruv",
+            "lastName": "Patel",
+            "message": "while leaving the wire where it is, I would try to advance another wire through the sheath and navigate to main PV",
+            "status": "active",
+            "userId": "",
+            "userName": "drdhruv15",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [
+                {
+                    "emoji": "🙏",
+                    "userName": "admin",
+                    "profileImage": "https://webchatroomuploads.s3.amazonaws.com/profile/sketch_to_image_20241124_170444.jpg"
+                }
+            ],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-16T07:47:06Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 2224632589,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750060025092.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "Before trying the suggestion u mentioned, what about this image?",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-16T23:08:30Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 436142625,
+            "images": "",
+            "firstName": "Dhruv",
+            "lastName": "Patel",
+            "message": "Looks like it’s a large varix. Can consider embolizing it. I’d secure MPV access before doing anything and even then should think of creating TIPS first and then embolize varix. But this is a controversial topic.  ",
+            "status": "active",
+            "userId": "",
+            "userName": "drdhruv15",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-17T02:53:06Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 4017107467,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750128785002.jpg",
+            "firstName": "ram",
+            "lastName": "ram",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-17T02:53:06Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 1426383574,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750128785756.jpg",
+            "firstName": "ram",
+            "lastName": "ram",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "Pre TIPS images",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-17T02:53:48Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 4238706404,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750128826640.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-21T07:01:53Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 3523162614,
+            "images": "",
+            "firstName": "Dhruv",
+            "lastName": "Patel",
+            "message": "Looks like stricture in the portal vein and main portal vein narrowing (would be more obvious on PACS). ",
+            "status": "active",
+            "userId": "",
+            "userName": "drdhruv15",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-21T07:02:41Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 2954687140,
+            "images": "",
+            "firstName": "Dhruv",
+            "lastName": "Patel",
+            "message": "Looks like we needs PVR TIPS here to help with Ascites",
+            "status": "active",
+            "userId": "",
+            "userName": "drdhruv15",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-22T22:16:34Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 287689689,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750630593273.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "Like you mentioned above, this is what i did. I got alongside with a wire and glidecath",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-22T22:17:57Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 2885130268,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750630676870.jpg",
+            "firstName": "ram",
+            "lastName": "ram",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "Final images......",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-22T22:17:57Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 3701249752,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750630676215.jpg",
+            "firstName": "ram",
+            "lastName": "ram",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-22T22:17:57Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 3512950710,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1750630675464.jpg",
+            "firstName": "ram",
+            "lastName": "ram",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-14T16:04:06Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 3326005245,
+            "images": "",
+            "firstName": "Dhruv",
+            "lastName": "Patel",
+            "message": "Thank you! Did you embolize the varices? Or what’s your take on embolizing primarily? ",
+            "status": "active",
+            "userId": "",
+            "userName": "drdhruv15",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-14T21:20:59Z",
+            "documents": "",
+            "groupId": "11",
+            "chatId": 4242295885,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "I didn’t embolize the varices. Pressure decreased.",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        }
+    ],
+    "message": "Success",
+    "status": 200
+},
+{
+    "chatGroupDetails": {
+        "id": 24,
+        "name": "Case_119",
+        "imageUrls": [
+            "https://webchatroomuploads.s3.amazonaws.com/profile/image_1751082013275_456010.jpg",
+            "https://webchatroomuploads.s3.amazonaws.com/profile/image_1751082014131_295395.jpg",
+            "https://webchatroomuploads.s3.amazonaws.com/profile/image_1751082014436_90936.jpg"
+        ],
+        "image": "https://webchatroomuploads.s3.amazonaws.com/profile/image_1751082013275_456010.jpg,https://webchatroomuploads.s3.amazonaws.com/profile/image_1751082014131_295395.jpg,https://webchatroomuploads.s3.amazonaws.com/profile/image_1751082014436_90936.jpg",
+        "createdBy": "gurajar",
+        "description": "\u003cp\u003eAn \u003cstrong\u003eelderly\u003c/strong\u003e patient presents to ED after a \u003cstrong\u003efall\u003c/strong\u003e. Displayed are the images at the time of presentation.\u003c/p\u003e",
+        "status": "active",
+        "archive": "false",
+        "freeze": false,
+        "paid_users": [],
+        "chatCount": 0,
+        "CreatedOn": "2025-06-28T03:40:14.89Z",
+        "UpdatedOn": "2025-12-09T07:39:29.045Z",
+        "lastChatDate": "",
+        "users": [
+            {
+                "userName": "gurajar",
+                "firstName": "ram",
+                "lastName": "gurajala",
+                "isMute": false
+            },
+            {
+                "userName": "alomsaif@gmail.com",
+                "firstName": "Alom",
+                "lastName": "Saif",
+                "isMute": false
+            },
+            {
+                "userName": "showkatbanday",
+                "firstName": "Showkat ",
+                "lastName": "Banday ",
+                "isMute": false
+            },
+            {
+                "userName": "pmalik493@gmail.com",
+                "firstName": "Poorvi",
+                "lastName": "Malik",
+                "isMute": false
+            },
+            {
+                "userName": "",
+                "firstName": "",
+                "lastName": "",
+                "isMute": false
+            },
+            {
+                "userName": "naveenk",
+                "firstName": "Naveen",
+                "lastName": "Kadiyala",
+                "isMute": false
+            },
+            {
+                "userName": "sharath",
+                "firstName": "Sharath",
+                "lastName": "Chandra",
+                "isMute": false
+            },
+            {
+                "userName": "sreenivasa2510@gmail.com",
+                "firstName": "Sreenivasa Narayana",
+                "lastName": "Raju",
+                "isMute": false
+            },
+            {
+                "userName": "admin",
+                "firstName": "admin",
+                "lastName": "admin",
+                "isMute": false
+            },
+            {
+                "userName": "testnaveen",
+                "firstName": "Test",
+                "lastName": "Naveen",
+                "isMute": false
+            },
+            {
+                "userName": "surajbhame",
+                "firstName": "Suraj",
+                "lastName": "Bhame",
+                "isMute": false
+            },
+            {
+                "userName": "smajji",
+                "firstName": "sharon",
+                "lastName": "roja",
+                "isMute": false
+            },
+            {
+                "userName": "dixitvarma95",
+                "firstName": "Dixit",
+                "lastName": "Varma",
+                "isMute": false
+            },
+            {
+                "userName": "saheb01",
+                "firstName": "saheb",
+                "lastName": "dhara",
+                "isMute": false
+            },
+            {
+                "userName": "sreekanthkadari",
+                "firstName": "Sreekanth",
+                "lastName": "Kadari",
+                "isMute": false
+            },
+            {
+                "userName": "darshan.thummar",
+                "firstName": "Darshan",
+                "lastName": "Thummar",
+                "isMute": false
+            },
+            {
+                "userName": "vanikkka",
+                "firstName": "Helika",
+                "lastName": "Nelika",
+                "isMute": false
+            },
+            {
+                "userName": "likhitha",
+                "firstName": "K",
+                "lastName": "Likhitha",
+                "isMute": false
+            }
+        ],
+        "synopsis": {
+            "objective": "",
+            "details": ""
+        },
+        "notificationCount": 0,
+        "lastMessage": {
+            "createdOn": "",
+            "documents": "",
+            "groupId": "",
+            "chatId": 0,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "",
+            "userId": "",
+            "userName": "",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": null,
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        "ads": null,
+        "price": "0",
+        "category": "",
+        "subcategory": "",
+        "category_icon": ""
+    },
+    "data": [
+        {
+            "createdOn": "2025-06-28T03:41:13Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 1059753314,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "question",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "What is CT Abdomen/pelvis protocol when the patient presents with trauma?",
+                "images": null,
+                "isPrimary": true
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-28T03:41:38Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 3985723928,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "question",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "What is the finding on the displayed images?",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-28T19:10:15Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 1289987896,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Scan should include plain,15-20 sec delayed arterial phase ,60-70 sec delayed portal venous phase..",
+            "status": "active",
+            "userId": "",
+            "userName": "sharath",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": true,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-28T19:11:00Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 1945880901,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "It should include from diaphragm D11 till mid thigh",
+            "status": "active",
+            "userId": "",
+            "userName": "sharath",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": true,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-28T19:12:07Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 3617476087,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Delayed urographic phase we suspect any bladder injury",
+            "status": "active",
+            "userId": "",
+            "userName": "sharath",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": true,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-29T00:55:19Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2577688809,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "Grt. Basically you need 3 phase scan. Non contrast;arterial and delayed. Maybe more delayed in certain cases ",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-29T00:55:49Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 4035086291,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "What about the findings on the displayed images?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-29T04:10:59Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 3628556556,
+            "images": "",
+            "firstName": "Shikhar ",
+            "lastName": "Garg",
+            "message": "Right gluteal hematoma with blush in venous and delayed phases ",
+            "status": "active",
+            "userId": "",
+            "userName": "shikhargarg",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-29T14:27:16Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 801501726,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "Is it arterial and delayed phase?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-29T14:52:37Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 3768246825,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "Do u intervene or conservative management?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-06-30T04:54:40Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2686756911,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1751259282774.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T02:37:11Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 4053587637,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "ite likely the psudoaneurysm of glueteal artery, with surrounding hematoma, as its appears on arterial phase and persistent on delayed phase. we should intervene as there is high risk of rupture",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T02:58:01Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 925943585,
+            "images": "",
+            "firstName": "ram",
+            "lastName": "gurajala",
+            "message": "If this is non-trauma, would you intervene?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:02:49Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 1322109003,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "if this is because bleeding disorder, coagluation disorder or anticoagulation medication, and if patients hemodynamic is stable, ideal treatment is conservative management (stopping anticoagulant and etc). if patient is hemodynamically unstable, we should intervene in that case also ",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:51:32Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 434329279,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "How would you approach this case?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:54:00Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 1980729738,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "as there is pseudoaneurysm in right gluteal region, i will start with left CFA puncture, it can be done with right also but i think it will be painful for the patient as well as there is large hematoma on right side. and also from left side it will be easier to perform right CIA angiogram. Radial access also an option.   ",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:54:52Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2008782868,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "for artery - 1. CIA run 2. EIA run 3. IIA run.  (likely SGA or IGA)",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:57:38Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 3350736386,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "reaching there with microcatheter, identifying the pseudoA and ideal is sandwich embolization with coil or glue.   if not visible on angio (spasm or anything), USG guided localisation and embo can be tried as an alternative",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:58:57Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2701157083,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1752206337844.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:59:32Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 945353713,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Too fast.... lets dissect slowly...",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": true,
+            "replyTo": {
+                "chatId": 3350736386,
+                "userName": "darshan.thummar",
+                "userImage": "",
+                "messageType": "message",
+                "message": "reaching there with microcatheter, identifying the pseudoA and ideal is sandwich embolization with coil or glue.   if not visible on angio (spasm or anything), USG guided localisation and embo can be tried as an alternative",
+                "imageUrl": ""
+            },
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T03:59:57Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2336860379,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Anything? Whats next?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": true,
+            "replyTo": {
+                "chatId": 2701157083,
+                "userName": "gurajar",
+                "userImage": "",
+                "messageType": "image",
+                "message": "",
+                "imageUrl": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1752206337844.jpg"
+            },
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T04:07:37Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 552836764,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "is this right common femoral angiogram ?",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T04:09:02Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 3206719740,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/image_1752206943287_805534.jpeg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T04:09:26Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 805799316,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "there is some stasis in this branch but no PSA opacification. ",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-11T11:37:44Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2390038838,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "This is Iliac artery angiogram. Whats next?",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": true,
+            "replyTo": {
+                "chatId": 552836764,
+                "userName": "darshan.thummar",
+                "userImage": "",
+                "messageType": "message",
+                "message": "is this right common femoral angiogram ?",
+                "imageUrl": ""
+            },
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-17T03:09:07Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 3943546844,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "we should take Internal iliac angiogram sir as there high chances of gluteal artery injury as per location",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-17T03:09:31Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2138787331,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "i am not able to see IIA and branches in the run",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [
+                {
+                    "emoji": "👍",
+                    "userName": "gurajar",
+                    "profileImage": ""
+                }
+            ],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-17T03:11:48Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 1204405021,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/edited_image_1752721907874.jpg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "gurajar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "IIA angiogram",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-17T03:42:41Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 2828652626,
+            "images": "https://webchatroomuploads.s3.amazonaws.com/home/image_1752723759102_952989.jpeg",
+            "firstName": "",
+            "lastName": "",
+            "message": "",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "image",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-17T03:43:50Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 4047020662,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "Pseudoaneurysm of the inferior gluteal artery branch (not sure). there are two branches coming off that artery, one branch going distally and normal otherone has this PSA.",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        },
+        {
+            "createdOn": "2025-07-17T03:45:24Z",
+            "documents": "",
+            "groupId": "24",
+            "chatId": 1009836693,
+            "images": "",
+            "firstName": "",
+            "lastName": "",
+            "message": "we can try to cannulate as distal as possible with microcatheter and embolize using 1. glue 2. coil  3. gelfoam   (glue my 1st choice).  i will use small microcatheter 1.98 Fr probably",
+            "status": "active",
+            "userId": "",
+            "userName": "darshan.thummar",
+            "videos": "",
+            "audio": "",
+            "clinicalNotes": "",
+            "messageType": "message",
+            "poll": {
+                "pollText": ""
+            },
+            "userImage": "",
+            "reactions": [],
+            "videoThumbnail": "",
+            "isReply": false,
+            "question": {
+                "message": "",
+                "images": null,
+                "isPrimary": false
+            },
+            "isPrivate": false,
+            "imageWithNotes": null,
+            "documentContentType": ""
+        }
+    ],
+    "message": "Success",
+    "status": 200
+}
+]
