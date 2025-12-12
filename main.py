@@ -157,6 +157,9 @@ def chat_qa(question: str, group_id="101"):
 # -------------------------------------------------------
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})   # Full CORS enabled
+@app.get("/welcome")
+def guest_api():
+    return jsonify({"message": "Welcome to IR4U chatbot"})
 
 @app.post("/chat")
 def chat():
