@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
-    print("⚠️ WARNING: OPENROUTER_API_KEY is missing. Check Railway Environment Variables.")
+    print(" WARNING: OPENROUTER_API_KEY is missing. Check Railway Environment Variables.")
 
 # Chat model
 LLAMA_MODEL = "meta-llama/llama-3.1-8b-instruct"

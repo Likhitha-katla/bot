@@ -1,41 +1,74 @@
+#main.py
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import os
+import re
+from datetime import datetime
+from calendar import monthrange
 from models import call_llama
 from vectorstore import (
     semantic_search,
-    store_full_chat_data,
-    ingest_chat,
-    
-    get_all_users,
-    get_replies_after,
+    get_messages_by_date,
     load_memory,
     save_memory,
-    get_topic_start,
-    
-    get_conn
+    get_conn,
+    ingest_chat,
+    store_full_chat_data
 )
 
-# -------------------------------------------------------
-# Build Context
-# -------------------------------------------------------
-def build_context(matches):
-    ctx = ""
-    for m in matches:
-        md = m["metadata"]
-        ctx += f"{md['userName']} ({md['createdOn']}): {md['text']}\n"
-    return ctx
+# CONTEXT BUILDER
+def build_context(rows):
+    return "\n".join(
+        f"{u} ({t}): {txt}" for u, t, txt in rows
+    )
 
-# -------------------------------------------------------
-# LLM Response Generator
-# -------------------------------------------------------
+# TIME FILTER EXTRACTION
+def extract_time_filter(question: str):
+    q = question.lower()
+
+    m = re.search(
+        r"(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{4})\s+(to|-)\s+(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{4})",
+        q
+    )
+
+    if m:
+        return {
+            "start_month": m.group(1),
+            "start_year": int(m.group(2)),
+            "end_month": m.group(4),
+            "end_year": int(m.group(5)),
+        }
+
+    return None
+
+def resolve_date_range(f):
+    sm = datetime.strptime(f["start_month"].title(), "%B").month
+    em = datetime.strptime(f["end_month"].title(), "%B").month
+
+    sy, ey = f["start_year"], f["end_year"]
+    last_day = monthrange(ey, em)[1]
+
+    return (
+        f"{sy}-{sm:02d}-01 00:00:00",
+        f"{ey}-{em:02d}-{last_day} 23:59:59"
+    )
+IMAGE_KEYWORDS = [
+    "image", "images", "photo", "photos",
+    "picture", "pictures",
+    "show", "display", "angiogram"
+]
+
+def is_image_query(question: str) -> bool:
+    q = question.lower()
+    return any(k in q for k in IMAGE_KEYWORDS)
+
+# LLM ANSWER
 def generate_answer(question: str, context: str):
-
     system_prompt = (
         "You are an AI assistant designed to extract factual information from group chat messages.\n\n"
         "RULES:\n"
         "1. Use ONLY the chat context. Do not guess.\n"
-        "2. If the topic is not in chat: \"The group has not discussed anything related to this topic.\"\n"
+        "2. Apply the 'not discussed' rule ONLY when the user asks about a topic."
+        "DO NOT apply this rule for date-based summaries.\n"
         "3. If user asks your opinion → respond: "
         "\"I am not trained to provide personal opinions or subjective viewpoints.\"\n"
         "4. If user greets (e.g., 'how are you') → reply neutrally.\n"
@@ -43,20 +76,26 @@ def generate_answer(question: str, context: str):
     )
 
     user_prompt = f"Chat Context:\n{context}\n\nQuestion: {question}"
+    return call_llama(system_prompt, user_prompt).strip()
 
-    answer = call_llama(system_prompt, user_prompt)
-    return answer.strip()
-
-
-# -------------------------------------------------------
 # MAIN QA LOGIC
-# -------------------------------------------------------
 def chat_qa(question: str, group_id="101"):
-
     q = question.lower().strip()
     memory = load_memory()
 
-    # 1️⃣ Who texted first
+    #  TIMELINE QUERY
+    tf = extract_time_filter(question)
+    if tf:
+        start, end = resolve_date_range(tf)
+        rows = get_messages_by_date(group_id, start, end)
+
+        if not rows:
+            return "No messages were found for the specified time period."
+
+        context = build_context(rows)
+        return generate_answer(question, context)
+
+    #  FIRST MESSAGE
     if "who texted first" in q or "first message" in q:
         conn = get_conn()
         cur = conn.cursor()
@@ -66,127 +105,113 @@ def chat_qa(question: str, group_id="101"):
             WHERE groupId=%s AND userName!='system'
             ORDER BY faiss_id ASC LIMIT 1
         """, (group_id,))
-        row = cur.fetchone()
+        r = cur.fetchone()
         conn.close()
 
-        if not row:
+        if not r:
             return "The group has no messages."
 
-        faiss_id, user, t, text = row
-        save_memory(last_faiss_id=faiss_id, last_message_text=text, last_topic="first_message")
-        return f"{user} sent the first message:\n\"{text}\""
+        save_memory(r[0], r[3], "first_message")
+        return f"{r[1]} sent the first message:\n\"{r[3]}\""
 
-    # 2️⃣ User list
-    if "how many users" in q or "users in group" in q:
-        data = get_all_users(group_id)
-        reply = f"There are {data['count']} users:\n"
-        for i, u in enumerate(data["users"], start=1):
-            reply += f"{i}. {u}\n"
-        return reply
-
-    # 3️⃣ Who started topic
-    if "who started" in q and "about" in q:
-        topic = q.split("about", 1)[1].strip()
-        starter = get_topic_start(group_id, topic)
-
-        if not starter:
-            return "The group has not discussed anything related to this topic."
-
-        save_memory(last_faiss_id=starter["faiss_id"], last_message_text=starter["text"], last_topic=topic)
-
-        response = (
-            f"{starter['user']} ({starter['time']}) started talking about {topic}:\n"
-            f"\"{starter['text']}\"\n\n"
-        )
-
-        replies = get_replies_after(starter["faiss_id"])
-        if replies:
-            response += "Next messages:\n"
-            for r in replies:
-                response += f"{r['user']} ({r['time']}): {r['text']}\n"
-
-            save_memory(
-                last_faiss_id=replies[-1]["faiss_id"],
-                last_message_text=replies[-1]["text"],
-                last_topic=topic,
-            )
-
-        return response
-
-    # 4️⃣ Follow-up questions
-    follow = ["who replied", "reply for that", "what happened next", "continue", "and then"]
-    if any(x in q for x in follow):
+    #  FOLLOW-UPS
+    if any(x in q for x in ["who replied", "what happened next", "continue", "and then"]):
         if memory["last_faiss_id"] is None:
             return "I don't know which message you are referring to."
 
-        replies = get_replies_after(memory["last_faiss_id"])
-        if not replies:
+        conn = get_conn()
+        cur = conn.cursor()
+        cur.execute("""
+            SELECT faiss_id, userName, createdOn, text
+            FROM embeddings
+            WHERE faiss_id > %s
+            ORDER BY faiss_id ASC LIMIT 1
+        """, (memory["last_faiss_id"],))
+        r = cur.fetchone()
+        conn.close()
+
+        if not r:
             return "There are no more replies after that message."
 
-        response = "Here are the next messages:\n\n"
-        for r in replies:
-            response += f"{r['user']} ({r['time']}): {r['text']}\n"
+        save_memory(r[0], r[3], memory["last_topic"])
+        return f"{r[1]} ({r[2]}): {r[3]}"
 
-        save_memory(
-            last_faiss_id=replies[-1]["faiss_id"],
-            last_message_text=replies[-1]["text"],
-            last_topic=memory["last_topic"],
-        )
-        return response
-
-    # 5️⃣ Otherwise → semantic search
     matches = semantic_search(question, group_id)
-
     if not matches:
         return "No relevant messages found."
 
-    first = matches[0]
-    save_memory(
-        last_faiss_id=first["faiss_id"],
-        last_message_text=first["metadata"]["text"],
-        last_topic=None,
-    )
+    image_intent = is_image_query(question)
 
-    context = build_context(matches)
-    answer = generate_answer(question, context)
-    return answer
+    #  CASE 1: USER DID NOT ASK FOR IMAGES
+    if not image_intent:
+        text_only = [
+            m for m in matches
+            if not m["metadata"].get("image_url")
+        ]
+
+        if not text_only:
+            return "The group discussed this topic, but no textual explanation is available."
+
+        context = "\n".join(
+            f'{m["metadata"]["userName"]} ({m["metadata"]["createdOn"]}): {m["metadata"]["text"]}'
+            for m in text_only
+        )
+
+        first = text_only[0]
+        save_memory(first["faiss_id"], first["metadata"]["text"], None)
+        return generate_answer(question, context)
 
 
-# -------------------------------------------------------
-# FLASK SERVER (Merged)
-# -------------------------------------------------------
+    #  CASE 2: USER ASKED FOR IMAGES
+    SIMILARITY_THRESHOLD = 0.35   # tune if needed
+    TOP_K_IMAGES = 5
+
+    images = [
+        {
+            "url": m["metadata"]["image_url"],
+            # "context": m["metadata"].get("image_context"),
+            "postedBy": m["metadata"]["userName"],
+            "time": m["metadata"]["createdOn"]
+        }
+        for m in matches
+        if (
+            m["metadata"].get("image_url")
+            and m["score"] >= SIMILARITY_THRESHOLD
+        )
+    ]
+
+    images = images[:TOP_K_IMAGES]
+
+    if not images:
+        return {
+            "answer": "No relevant images were found for this query.",
+            "images": []
+        }
+
+    return {
+        "answer": "Relevant images from the discussion:",
+        "images": images
+    }
+
+# FLASK APP
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})   # Full CORS enabled
-
-@app.get("/")
-def health_check():
-    return jsonify({
-        "status": "running",
-        "message": "IR4U AI Chatbot Server is live"
-    })
-
-@app.get("/welcome")
-def guest_api():
-    return jsonify({"message": "Welcome to IR4U chatbot"})
+CORS(app)
 
 @app.post("/chat")
 def chat():
     try:
         data = request.get_json()
-        question = data.get("question")
-        group_id = str(data.get("group_id", "101"))
-
-        answer = chat_qa(question, group_id)
-        return jsonify({"answer": answer})
-
+        result = chat_qa(
+            data.get("question", ""),
+            str(data.get("group_id", "101"))
+        )
+        return jsonify(result)   
     except Exception as e:
         print("SERVER ERROR:", e)
-        return jsonify({"error": str(e)}), 500
+        return jsonify({"answer": "Server error"}), 500
 
 
-# -------------------------------------------------------
-# INIT + START SERVER
-# -------------------------------------------------------
+# START SERVER
 if __name__ == "__main__":
     print("📥 Loading chat data & generating FAISS index...")
     store_full_chat_data("cases.json")
@@ -195,5 +220,4 @@ if __name__ == "__main__":
 
     print("🚀 Flask AI Chat Server running on port 5000")
     app.run(host="0.0.0.0", port=5000)
-
 

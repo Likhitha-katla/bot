@@ -301,6 +301,52 @@ function addMessage(text, sender) {
     chatBox.appendChild(div);
     chatBox.scrollTop = chatBox.scrollHeight;
 }
+function addBotResponse(response) {
+    const div = document.createElement("div");
+    div.classList.add("msg", "bot");
+
+    // TEXT ONLY RESPONSE
+    if (typeof response === "string") {
+        div.innerText = response;
+        chatBox.appendChild(div);
+        chatBox.scrollTop = chatBox.scrollHeight;
+        return;
+    }
+
+    // OBJECT RESPONSE
+    if (typeof response === "object") {
+        // Show answer text
+        if (response.answer) {
+            const p = document.createElement("p");
+            p.innerText = response.answer;
+            div.appendChild(p);
+        }
+
+        // Show images ONLY if present
+        if (response.images && Array.isArray(response.images)) {
+            response.images.forEach(img => {
+                const imgEl = document.createElement("img");
+                imgEl.src = img.url;
+                imgEl.style.width = "250px";
+                imgEl.style.display = "block";
+                imgEl.style.marginTop = "10px";
+                imgEl.style.borderRadius = "12px";
+
+                const caption = document.createElement("div");
+                caption.style.fontSize = "13px";
+                caption.style.color = "#555";
+                caption.innerText =
+                    `${img.context || ""}\n${img.postedBy || ""} | ${img.time || ""}`;
+
+                div.appendChild(imgEl);
+                div.appendChild(caption);
+            });
+        }
+
+        chatBox.appendChild(div);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+}
 
 async function sendMessage() {
     const input = document.getElementById("userInput");
@@ -318,7 +364,7 @@ async function sendMessage() {
     chatBox.appendChild(loading);
 
     try {
-        const BACKEND_URL = "https://bot-vpu6.onrender.com/";
+        const BACKEND_URL = "http://127.0.0.1:5000";
 const res = await fetch(`${BACKEND_URL}/chat`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
@@ -329,7 +375,9 @@ const res = await fetch(`${BACKEND_URL}/chat`, {
         const data = await res.json();
         chatBox.removeChild(loading);
 
-        addMessage(data.answer || "Server error", "bot");
+        // addMessage(data.answer || "Server error", "bot");
+        addBotResponse(data);
+
 
     } catch (err) {
         chatBox.removeChild(loading);
