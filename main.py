@@ -197,19 +197,52 @@ def chat_qa(question: str, group_id="101"):
 app = Flask(__name__)
 CORS(app)
 
+# @app.post("/chat")
+# def chat():
+#     try:
+#         data = request.get_json()
+#         result = chat_qa(
+#             data.get("question", ""),
+#             str(data.get("group_id", "101"))
+#         )
+#         return jsonify(result)   
+#     except Exception as e:
+#         print("SERVER ERROR:", e)
+#         return jsonify({"answer": "Server error"}), 500
+
+@app.get("/")
+def health_check():
+    return jsonify({
+        "status": "running",
+        "message": "IR4U AI Chatbot Server is live"
+    })
+
+
+@app.get("/welcome")
+def guest_api():
+    return jsonify({
+        "message": "Welcome to IR4U chatbot"
+    })
+
+
 @app.post("/chat")
 def chat():
     try:
-        data = request.get_json()
-        result = chat_qa(
-            data.get("question", ""),
-            str(data.get("group_id", "101"))
-        )
-        return jsonify(result)   
+        data = request.get_json(force=True)
+        question = data.get("question", "")
+        group_id = str(data.get("group_id", "101"))
+
+        result = chat_qa(question, group_id)
+
+        # result may be string or dict
+        if isinstance(result, dict):
+            return jsonify(result)
+        else:
+            return jsonify({"answer": result})
+
     except Exception as e:
         print("SERVER ERROR:", e)
         return jsonify({"answer": "Server error"}), 500
-
 
 # START SERVER
 if __name__ == "__main__":

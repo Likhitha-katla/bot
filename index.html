@@ -364,7 +364,7 @@ async function sendMessage() {
     chatBox.appendChild(loading);
 
     try {
-        const BACKEND_URL = "http://127.0.0.1:5000";
+        const BACKEND_URL = "https://bot-vpu6.onrender.com/";
 const res = await fetch(`${BACKEND_URL}/chat`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
